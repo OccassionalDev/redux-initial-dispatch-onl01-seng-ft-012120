@@ -10,7 +10,7 @@ function changeState(state, action){
   }
 
 function dispatch(action){
-    state = changeState(state, action)
+    state = changeState(state = { count: 0 }, action)
     render()
 }
 
