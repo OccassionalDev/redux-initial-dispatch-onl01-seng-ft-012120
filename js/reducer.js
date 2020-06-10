@@ -18,4 +18,4 @@ function render(){
     document.body.textContent = state.count
 }
 
-dispatch({type '@@INIT'})
+dispatch({type: '@@INIT'})
